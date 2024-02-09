@@ -5,6 +5,7 @@ public class reloj {
      int minutos;
      int segundos;
 
+
     public reloj() {
         this.hora = 12;
         this.minutos = 00;
@@ -21,6 +22,10 @@ public class reloj {
         this.hora = ((6248/60)/60);
         this.minutos =  ((6248/60)%60);
         this.segundos = 6248%60;
+    }
+
+    public void saludo(){
+        System.out.println("Hola Fer");
     }
 
     public int getHora() {
